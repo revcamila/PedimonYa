@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PedimonApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/pedimon-logo.png" alt="pedimon logo" class="logo" />
+                    </a>
+                </li>
+                <!-- Links del navbar -->
+                <div class="container-items">
+                    <li class="item"><a href="#about">About</a></li>
+                    <li class="item"><a href="#description">Description</a></li>
+                    <li class="item"><a href="#products">Products</a></li>
+                    <li class="item"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </div>
+                <!-- menu bars -->
+                <div class="btn-container">
+                    <a href="#"><i class="fa-solid fa-bars"></i></a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--- Section 1 About --->
+        <section class="about-section" id="about">
+            <div class="about-content">
+                <img src="./assets/img/pedimon-text.png" alt="logo texto" class="title-img" />
+                <p>
+                    ¡Buscá tu Pokemon favorito y disfrutá los beneficios de tener un bicho de estos en tu casa!
+                </p>
+                <a href="#products" class="btn-hero">Los quiero atrapar</a>
+            </div>
+            <div class="about-img">
+                <img src="./assets/img/pikachu-hero.png" alt="pikachu" />
+            </div>
+        </section>
+        <!--- Terminada la Section 1 --->
+        <!--- Section 2 description --->
+        <section class="description-section" id="description">
+            <h2>No te quedes sin tu pedido</h2>
+            <p>No te podés quedar sin tu Pedimon</p>
+            <!-- Contenedor para las 3 Cards -->
+            <div class="card-container">
+                <!-- Card 1 -->
+                <div class="card">
+                    <img src="./assets/img/info-icon-1.png" alt="info 1" class="info-card">
+                    <p>Elegí el Pedi que vos querés</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <img src="./assets/img/info-icon-2.png" alt="info 2" class="info-card">
+                    <p>Lo agregás al carrito</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <img src="./assets/img/info-icon-3.png" alt="info 3" class="info-card">
+                    <p>¡Le das al botón de comprar y listo!</p>
+                </div>
+            </div>
+        </section>
+        <!--Terminada la Section 2-->
+
+        <!--Section 3-->
+        <section class="products-section" id="products">
+            <h2>Acá va la lista de los Cokemone</h2>
+            <div class="products-container">
+                <!--Los Pokemones-->
+                <!--Producto 1-->
+                <div class="product">
+                    <img src="assets/img/bulbasaur.png" alt="bulbasaur" class="cokemone">
+                    <p class="product-title">Señor Bulbasaur</p>
+                    <span class="product-price">$125</span>
+                    <a href="products" class="btn-products">Comprar</a>
+                </div>
+                <!--Producto 2-->
+                <div class="product">
+                    <img src="assets/img/bulbasaur.png" alt="bulbasaur" class="cokemone">
+                    <p class="product-title">Señor Bulbasaur</p>
+                    <span class="product-price">$125</span>
+                    <a href="products" class="btn-products">Comprar</a>
+                </div>
+                <!--Producto 3-->
+                <div class="product">
+                    <img src="assets/img/bulbasaur.png" alt="bulbasaur" class="cokemone">
+                    <p class="product-title">Señor Bulbasaur</p>
+                    <span class="product-price">$125</span>
+                    <a href="products" class="btn-products disabled">Comprar</a>
+                    <!--Sin Stock-->
+                    <span class="stock">Sin Stock</span>
+                </div>
+                <!--Producto 4-->
+                <div class="product">
+                    <img src="assets/img/bulbasaur.png" alt="bulbasaur" class="cokemone">
+                    <p class="product-title">Señor Bulbasaur</p>
+                    <span class="product-price">$125</span>
+                    <a href="products" class="btn-products">Comprar</a>
+                </div>
+                <!--Producto 5-->
+                <div class="product">
+                    <img src="assets/img/bulbasaur.png" alt="bulbasaur" class="cokemone">
+                    <p class="product-title">Señor Bulbasaur</p>
+                    <span class="product-price">$125</span>
+                    <a href="products" class="btn-products">Comprar</a>
+                </div>
+                <!--Producto 6-->
+                <div class="product">
+                    <img src="assets/img/bulbasaur.png" alt="bulbasaur" class="cokemone">
+                    <p class="product-title">Señor Bulbasaur</p>
+                    <span class="product-price">$125</span>
+                    <a href="products" class="btn-products">Comprar</a>
+                </div>
+            </div>
+        </section>
+        <!--Terminada la Section 3-->
+        <!--Card Section-->
+        <section class="cart-section" id="carrito">
+            <h2>Acá va a un carrito</h2>
+            <p>Acá usamos JavaScript</p>
+            <div class="cart-container">
+                <!--Item 1-->
+                <div class="cart-item">
+                    <img src="./assets/img/squirtle.png" alt="" class="item-img"/>
+                    <p class="cart-title">Vamo' a calmarno</p>
+                    <span class="cart-price">$987</span>
+                </div>
+                <!--Item 2-->
+                <div class="cart-item">
+                    <img src="./assets/img/squirtle.png" alt="" class="item-img"/>
+                    <p class="cart-title">Vamo' a calmarno</p>
+                    <span class="cart-price">$987</span>
+                </div>
+                <!--Item 3-->
+                <div class="cart-item">
+                    <img src="./assets/img/squirtle.png" alt="" class="item-img"/>
+                    <p class="cart-title">Vamo' a calmarno</p>
+                    <span class="cart-price">$987</span>
+                </div>
+                <!--Total-->
+                <div class="total-items">
+                    <p class="total">Total: $NaN</p>
+                    <a href="" class="btn-products">Finalizar Compra</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="title">
+            <img src="./assets/img/pedimon-text.png" alt="" />
+        </div>
+        <div class="info-container">
+        <div class="contacto">
+            <h2>Contacto</h2>
+            <a href="#">04 04 04</a>
+            <p>Calle Falsa 123</p>
+        </div>
+            <div class="legales">
+                <h2>Legales</h2>
+                <p>Cualquier inconveniente dirigirse al lobby</p>
+            </div>
+        </div>
+        <p>Hecho con ❤ por Cami ft. NUCBA</p>
+    </footer>
+</body>
+
+</html>
